@@ -27,10 +27,10 @@ const About = () => {
             </span>{" "}
             from courses, bootcamps or articles that I occasionally read to
             learn something.
-            <br /> <br /> The articles are being written in English because I
-            want to improve my English writing skills and I think that's is a
-            very good way to do so. Sorry in advance in case you found some
-            typos, that can happen very often.
+            <br /> <br />
+            To improve my English writing skills i decided to write the articles
+            in English, but since i'm not so good at it you might found some
+            typos. My apologies in advance, that can happen very often.
           </p>
         </div>
         <div className="col-span-1 lg:col-span-4">
