@@ -23,7 +23,7 @@ export default function Home({ fetchedPosts }) {
     <div className="container mx-auto px-10 mb-8">
       <Head>
         <title>Sigma - Let's code</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/sigmaIco.svg" />
       </Head>
 
       <Banner />
