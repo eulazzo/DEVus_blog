@@ -33,7 +33,8 @@
 
 <p>
 In this blog I share things about Web and Mobile Development that i'm learning from bootcamps, courses and articles that I occasionally read or subject that i already know. That way I can learn better and maybe end up helping someone else.
-`The articles are being written in English because one of the reasons this blog exists is because I want to improve my English writing skills and I think this is a very good way to do it`. Sorry in advance in case you found some typos, that can happen very often.
+<code>The articles are being written in English because I want to improve my English writing skills and I think that's a very good way to do so</code>. Sorry in advance in case you found some typos, that can happen very often. </br></br>  
+At the end of each article you can find all the sources I used to learn some specific topic and then make the article itself. For more information just check the link below the articles. :)
 </p>
  
 <p>Developed with <code>NextJS</code>, <code>TailwindCSS</code>, <code>GraphQL</code>  and <code>GraphCMS</code>  </p> 
