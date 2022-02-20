@@ -1,20 +1,16 @@
 
-## Readme Not finished
-
-
 <h1 align="center">
-<!--    <img alt="sigma" src="github/logo_v1.svg" width="200px" /> -->
-   SIGMA
+   <img alt="sigma" src="github/sigmaLogo.svg" width="100px"  />
 </h1>
   
 <div align="center">
-  <h1>SIGMA - Blog for Javascript, React and React Native Contents</h1>
+  <h1>SIGMA - Articles about Javascript, React, React Native, Node and MongoDB</h1>
 </div>
 
 <p align="center" >
   <a href="#about"> About </a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;
-  <a href="#realtime-chat">Post</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#techs">Techs</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#click-on-the-button-below-to-vist-the-blog">Deploy</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#features">Features</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license">License</a>
 </p>
 
@@ -28,12 +24,29 @@
   <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=4425EC&labelColor=9c44dc" alt="License">
 </p>
 
+## Click on the button below to vist the blog
+[![Deploy with Vercel](https://vercel.com/button)](https%3A%2F%2Fgithub.com%2Feulazzo%2Fsigma_blog)
 
+# About
+
+### Sigma - Best way to learn is by teaching what you know
+
+<p>
+In this blog I share things about Web and Mobile Development that i'm learning from bootcamps, courses and articles that I occasionally read or subject that i already know. That way I can learn better and maybe end up helping someone else.
+`The articles are being written in English because one of the reasons this blog exists is because I want to improve my English writing skills and I think this is a very good way to do it`. Sorry in advance in case you found some typos, that can happen very often.
+</p>
  
-With featured and recent posts, categories. full markdown articles, author information,</br>
-comments, and much more, fully responsive CMS Blog App.  And what's best of all is that </br> 
-you and your clients can manage the blog from a dedicated Content Management System. </br>
+<p>Developed with <code>NextJS</code>, <code>TailwindCSS</code>, <code>GraphQL</code>  and <code>GraphCMS</code>  </p> 
 
-React and Next.js;</br>
-Next JS pre-rendering with Static Generation;</br>
-A modern UI using Tailwind CSS, GraphQL and GraphCMS.</br>
+#### Features:
+- [X] With featured and recent posts
+- [X] categories
+- [X] author information
+- [X] comments and much more,
+- [X] fully responsive CMS Blog App
+- [X] Finally and one the best feature is that  
+you and your clients can manage the blog from a dedicated Content Management System. </br>
+ 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
