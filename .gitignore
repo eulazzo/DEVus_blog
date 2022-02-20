@@ -12,7 +12,8 @@
 /.next/
 /out/
  
-
+01Post.js
+02Posts.js
 
 # production
 /build

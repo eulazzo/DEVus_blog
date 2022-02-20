@@ -1,17 +1,26 @@
+import Link from "next/link";
+
 const Banner = () => {
   return (
-    <div className="flex items-center md:bg-white justify-between py-10 lg:py-0">
+    <div className="flex items-center  justify-between py-10 lg:py-0">
       <div className="space-y-5 ">
         <div className="w-[80%]">
           <h1 className="max-w-xl pb-1 text-4xl md:text-6xl font-semibold text-purple">
             SIGMA
           </h1>
           <span className="text-gray0 ">
-            {/* Here I share things about Web and Mobile Development that I am
-            currently learning or I already know, this way i can learn better and
-            maybe end up helping someone. */}
             Articles about Javascript, React, React Native, Node and MongoDB.
           </span>
+
+          <Link href="/sigma/about">
+            <button
+              className="bg-white px-5 
+        py-3 shadow-md my-3 font-bold hover:shadow-xl 
+        active:scale-90 transition duration-150 text-gray0"
+            >
+              About Sigma
+            </button>
+          </Link>
         </div>
       </div>
 

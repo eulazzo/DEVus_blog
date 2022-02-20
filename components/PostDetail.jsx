@@ -2,8 +2,7 @@ import React from "react";
 import moment from "moment";
 
 const PostDetail = ({ post }) => {
-
-  console.log(post)
+  console.log(post);
   const getContentFragment = (index, text, obj, type) => {
     let modifiedText = text;
 
@@ -22,6 +21,7 @@ const PostDetail = ({ post }) => {
             ))}
           </h3>
         );
+
       case "paragraph":
         return (
           <p key={index} className="mb-8">

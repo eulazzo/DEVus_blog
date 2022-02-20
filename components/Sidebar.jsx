@@ -35,19 +35,19 @@ export default function Sidebar() {
             </span>
             <ul className="flex gap-2 cursor-pointer text-center  mt-5 ">
               <li className="bg-black rounded-md items-center  h-7 w-7 flex flex-col cursor-pointer justify-center text-white ">
-                <Link href={"https://www.instagram.com/eulazzo/"}>
+                <a target="_blank" href="https://www.instagram.com/eulazzo/">
                   <AiFillInstagram />
-                </Link>
+                </a>
               </li>
               <li className="bg-black rounded-md items-center  h-7 w-7 flex flex-col cursor-pointer justify-center text-white">
-                <Link href={"https://github.com/eulazzo"}>
+                <a target="_blank" href="https://github.com/eulazzo">
                   <AiFillGithub />
-                </Link>
+                </a>
               </li>
               <li className="bg-black items-center  h-7 w-7 flex flex-col cursor-pointer justify-center rounded-md text-white ">
-                <Link href={"https://www.linkedin.com/in/eulazzo/"}>
+                <a target="_blank" href="https://www.linkedin.com/in/eulazzo/">
                   <FaLinkedinIn />
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
