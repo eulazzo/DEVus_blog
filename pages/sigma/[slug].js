@@ -1,10 +1,8 @@
 import { useRouter } from "next/router";
 import { Loader, Sidebar } from "../../components";
 
-const About = ({ posts }) => {
+const About = () => {
   const router = useRouter();
-
-  console.log(router);
 
   if (router.isFallback) {
     return <Loader />;
