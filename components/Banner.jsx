@@ -14,9 +14,9 @@ const Banner = () => {
 
           <Link href="/sigma/about">
             <button
-              className="bg-white px-5 
-        py-3 shadow-md my-3 font-bold hover:shadow-xl 
-        active:scale-90 transition duration-150 text-gray0"
+              className="bg-white px-5
+              py-3 shadow-md my-3 font-bold hover:shadow-xl 
+              active:scale-90 transition duration-150 text-gray0"
             >
               About Sigma
             </button>
