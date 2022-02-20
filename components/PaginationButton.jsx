@@ -7,7 +7,6 @@ const PaginationButton = ({ btnValue }) => {
       className="flex flex-col justify-center 
   text-center border-2 h-10 w-10 cursor-pointer  text-base"
     >
-       
       {btnValue}
     </div>
   );

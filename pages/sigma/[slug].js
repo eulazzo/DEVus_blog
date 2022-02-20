@@ -29,7 +29,7 @@ const About = () => {
             learn something.
             <br /> <br />
             To improve my English writing skills i decided to write the articles
-            in English, but since i'm not so good at it you might found some
+            in English, but since i'm not that good at it you might found some
             typos. My apologies in advance, that can happen very often.
           </p>
         </div>

@@ -28,7 +28,7 @@ const PostWidget = ({ categories, slug }) => {
       </h3>
       {relatedPosts.map((post, index) => (
         <div key={index} className="flex items-center w-full mb-4">
-          <div className="w-16 flex-none">
+          <div className="w-28 flex-none">
             <Link href={`/post/${post.slug}`}>
               <Image
                 loader={grpahCMSImageLoader}

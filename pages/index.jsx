@@ -6,7 +6,6 @@ import Banner from "../components/Banner";
 import { useState } from "react";
 import { Pagination } from "../components";
 
-
 export default function Home({ fetchedPosts }) {
   const [posts] = useState(fetchedPosts);
   const [currentPage, setCurrentPage] = useState(1);
@@ -27,7 +26,6 @@ export default function Home({ fetchedPosts }) {
       </Head>
 
       <Banner />
-
       <FeaturedPost />
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">

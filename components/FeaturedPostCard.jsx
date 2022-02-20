@@ -4,6 +4,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 const FeaturedPostCard = ({ post }) => {
+  const isTheTitleBig = (title) => {
+    const madeTitleSmaller = `${title.slice(0, 50)}...`;
+    return `${title.length > 50 ? madeTitleSmaller : title}`;
+  };
+
   return (
     <div className="relative h-72 mt-10 md:mt-24">
       <div
@@ -16,17 +21,19 @@ const FeaturedPostCard = ({ post }) => {
           {moment(post?.createdAt).format("MMM DD, YYYY")}
         </p>
         <p className="text-white mb-4 text-shadow font-semibold text-2xl text-center">
-          {post?.title}
+          {isTheTitleBig(post?.title)}
         </p>
         <div className="flex items-center absolute bottom-5 w-full justify-center">
-          <Image
-            unoptimized
-            alt={post?.author.name}
-            height="30px"
-            width="30px"
-            className="align-middle drop-shadow-lg rounded-full"
-            src={post?.author.photo.url}
-          />
+          <div className="border-2 border-purple rounded-full w-8 h-8 ">
+            <Image
+              unoptimized
+              alt={post?.author.name}
+              height="30px"
+              width="30px"
+              className="align-middle drop-shadow-lg rounded-full "
+              src={post?.author.photo.url}
+            />
+          </div>
           <p className="inline align-middle text-white text-shadow ml-2 font-medium">
             {post?.author.name}
           </p>
