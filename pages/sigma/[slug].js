@@ -17,7 +17,7 @@ const About = () => {
             "The best way to learn is to teach what you are learning"{" "}
           </cite>{" "}
           and I totally agree with that. <br />
-          Here I share things I learned about{" "}
+          Here I share things I've learned about{" "}
           <span className="text-purple font-semibold"> Web</span> and{" "}
           <span className="text-purple font-semibold">
             {" "}
