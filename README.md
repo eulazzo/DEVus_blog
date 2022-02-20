@@ -25,7 +25,7 @@
 </p>
 
 ## Click on the button below to vist the blog
-[![Deploy with Vercel](https://vercel.com/button)](https%3A%2F%2Fgithub.com%2Feulazzo%2Fsigma_blog)
+[![Deploy with Vercel](https://vercel.com/button)](https://sigma-blog.vercel.app/)
 
 # About
 
