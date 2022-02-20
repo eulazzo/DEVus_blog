@@ -17,17 +17,16 @@ const About = () => {
             "The best way to learn is to teach what you are learning"{" "}
           </cite>{" "}
           and I totally agree with that. <br />
-          Sigma in math means sum, and that is perfect to this blog purpose,
-          because In this blog I share things about{" "}
+          Here I share things I learned about{" "}
           <span className="text-purple font-semibold"> Web</span> and{" "}
-          <span className="text-purple font-semibold">Mobile Development </span>{" "}
-          that i'm learning from bootcamps, courses and articles that I
-          occasionally read or subject that i already know. That way I can learn
-          better and maybe end up helping someone else.<br /> The articles are being
-          written in English because one of the reasons this blog exists is
-          because I want to improve my English writing skills and I think this
-          is a very good way to do it. Sorry in advance in case you found some
-          typos, that can happen very often.
+          <span className="text-purple font-semibold">
+            {" "}
+            Mobile Development{" "}
+          </span>
+          . The articles are being written in English because I want to improve
+          my English writing skills and I think that's is a very good way to do
+          it. Sorry in advance in case you found some typos, that can happen
+          very often.
         </div>
         <div className="col-span-1 lg:col-span-4">
           <div className="relative lg:sticky top-8">
