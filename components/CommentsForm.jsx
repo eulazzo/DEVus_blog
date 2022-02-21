@@ -17,12 +17,22 @@ const CommentsForm = ({ slug }) => {
     emailEl.current.value = window.localStorage.getItem("email");
   }, []);
 
-  const commentSubmissionHandler = (param) => {
+  const validateEmail = (email) => {
+    const isEmail = /\S+@\S+\.\S+/;
+    return isEmail.test(email);
+  };
+
+  const commentSubmissionHandler = () => {
     setError(false);
     const { value: comment } = commentEl.current;
     const { value: name } = nameEl.current;
     const { value: email } = emailEl.current;
     const { checked: storeData } = storeDataEl.current;
+
+    if (!validateEmail(email)) {
+      setError(true);
+      return;
+    }
 
     if (!comment || !name || !email) {
       setError(true);
