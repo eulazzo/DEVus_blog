@@ -5,6 +5,7 @@ import Link from "next/link";
 
 import { grpahCMSImageLoader } from "../utils";
 import { getSimilarPosts, getRecentPosts } from "../services";
+import { sortPostsNewOneFirst } from "../utils";
 
 const PostWidget = ({ categories, slug }) => {
   const [relatedPosts, setRelatedPosts] = useState([]);
@@ -16,7 +17,7 @@ const PostWidget = ({ categories, slug }) => {
       });
     } else {
       getRecentPosts().then((result) => {
-        setRelatedPosts(result);
+        setRelatedPosts(sortPostsNewOneFirst(result));
       });
     }
   }, [slug]);

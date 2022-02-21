@@ -5,8 +5,8 @@ import Link from "next/link";
 
 const FeaturedPostCard = ({ post }) => {
   const isTheTitleBig = (title) => {
-    const madeTitleSmaller = `${title.slice(0, 50)}...`;
-    return `${title.length > 50 ? madeTitleSmaller : title}`;
+    const madeTitleSmaller = `${title.slice(0, 45)}...`;
+    return `${title.length > 45 ? madeTitleSmaller : title}`;
   };
 
   return (

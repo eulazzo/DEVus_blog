@@ -24,18 +24,18 @@ const responsive = {
   },
 };
 
+import { sortPostsNewOneFirst } from "../utils";
+
 const FeaturedPosts = () => {
   const [featuredPosts, setFeaturedPosts] = useState([]);
   const [dataLoaded, setDataLoaded] = useState(false);
 
   useEffect(() => {
     getFeaturedPosts().then((result) => {
-      setFeaturedPosts(result);
+      setFeaturedPosts(sortPostsNewOneFirst(result));
       setDataLoaded(true);
     });
   }, []);
-
-  
 
   const customLeftArrow = (
     <div className="absolute arrow-btn left-0 text-center py-3 cursor-pointer bg-pink-600 rounded-full">

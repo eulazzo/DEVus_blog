@@ -5,6 +5,7 @@ import FeaturedPost from "../sections/FeaturedPost";
 import Banner from "../components/Banner";
 import { useState } from "react";
 import { Pagination } from "../components";
+import { sortPostsNewOneFirst } from "../utils";
 
 export default function Home({ fetchedPosts }) {
   const [posts] = useState(fetchedPosts);

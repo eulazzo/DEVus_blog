@@ -11,6 +11,4 @@ export { default as FeaturedPostCard } from "./FeaturedPostCard";
 export { default as AdjacentPostCard } from "./AdjacentPostCard";
 export { default as Sidebar } from "./Sidebar";
 export { default as Pagination } from "./Pagination";
-export { default as PaginationButton } from "./PaginationButton";
 export { default as Loader } from "./Loader";
- 
