@@ -29,12 +29,7 @@ const CommentsForm = ({ slug }) => {
     const { value: email } = emailEl.current;
     const { checked: storeData } = storeDataEl.current;
 
-    if (!validateEmail(email)) {
-      setError(true);
-      return;
-    }
-
-    if (!comment || !name || !email) {
+    if (!comment || !name || !email || !validateEmail(email)) {
       setError(true);
       return;
     }
