@@ -1,8 +1,6 @@
 import aboutProfile from "../public/aboutProfile.jpeg";
-import Logo from "../public/Logo.png";
 
 import Image from "next/image";
-import Link from "next/link";
 
 import { AiFillInstagram } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
@@ -18,7 +16,7 @@ export default function Sidebar() {
         <div className="w-48 h-52  relative">
           <Image
             layout="fill"
-            src={Logo}
+            src={aboutProfile}
             objectFit="cover"
             className="rounded-md"
           />
