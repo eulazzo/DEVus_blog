@@ -1,4 +1,6 @@
 import aboutProfile from "../public/aboutProfile.jpeg";
+import Logo from "../public/Logo.png";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -16,7 +18,7 @@ export default function Sidebar() {
         <div className="w-48 h-52  relative">
           <Image
             layout="fill"
-            src={aboutProfile}
+            src={Logo}
             objectFit="cover"
             className="rounded-md"
           />
