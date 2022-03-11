@@ -1,14 +1,14 @@
-import Footer from "./Footer"
-import { Header } from "./index"
+import Footer from "./Footer";
+import { Header } from "./index";
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
     <>
       <Header />
       {children}
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
