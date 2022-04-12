@@ -24,7 +24,7 @@
   <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=4425EC&labelColor=9c44dc" alt="License">
 </p>
 
-## Click on the button below to vist the blog
+## Click on the button below to check it out
 [![Deploy with Vercel](https://vercel.com/button)](https://sigma-blog.vercel.app/)
 
 # About
