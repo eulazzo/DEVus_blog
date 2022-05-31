@@ -4,7 +4,7 @@
 </h1>
   
 <div align="center">
-  <h1>SIGMA - Articles about Javascript, React, React Native, Node and MongoDB</h1>
+  <h1>DEVus - Articles about Development/h1>
 </div>
 
 <p align="center" >
@@ -25,7 +25,7 @@
 </p>
 
 ## Click on the button below to check it out
-[![Deploy with Vercel](https://vercel.com/button)](https://sigma-blog.vercel.app/)
+[![Deploy with Vercel](https://vercel.com/button)]( https://devus.netlify.app/ )
 
 # About
 
