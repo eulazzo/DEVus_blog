@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="flex justify-center">
         <div className="flex flex-5 flex-col justify-end col-span-3">
           <h4 className="font-bold cursor-pointer text-purple text-3xl">
-            Sigma
+          DEVus
           </h4>
           <span className="text-white text-sm">
             Copyrights © 2022. All Rights Reserved.
