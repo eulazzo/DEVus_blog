@@ -29,7 +29,7 @@
 
 # About
 
-### Sigma - Best way to learn is by teaching what you know
+### DEVus - Best way to learn is by teaching what you know
 
 <p>
 In this blog I share things about Web and Mobile Development that i'm learning from bootcamps, courses and articles that I occasionally read or subject that i already know. That way I can learn better and maybe end up helping someone else.
